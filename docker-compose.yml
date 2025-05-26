@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: list-app
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
